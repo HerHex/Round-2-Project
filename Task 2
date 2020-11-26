@@ -1,0 +1,18 @@
+using System;
+
+namespace Task1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Function to take age in years and convert them in days");
+            Console.WriteLine("Input how many years");
+            int age = int.Parse(Console.ReadLine());
+            int yeardays = 365;
+            int days = age * yeardays;
+            Console.WriteLine($" {days}");
+        }
+        
+    }
+}
