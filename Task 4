@@ -1,0 +1,32 @@
+using System;
+
+namespace Task1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Input Number 1 and number 2");
+                
+            int n1 = int.Parse(Console.ReadLine());
+            int n2 = int.Parse(Console.ReadLine());
+            if (n1 > 0 && n2 > 0)
+            {
+                Console.WriteLine(true);
+            }
+            else if (n1 < 0 && n2 < 0)
+            {
+                Console.WriteLine(true);
+            }
+            else if (n1 == 0 && n2 == 0)
+            {
+                Console.WriteLine(true);
+            }
+            else
+            {
+                Console.WriteLine(false);
+            }
+        }
+        
+    }
+}
