@@ -1,0 +1,16 @@
+using System;
+
+namespace Task1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Return a string as an integer task");
+            string txt = Console.ReadLine();
+            int result = int.Parse(txt);
+            Console.WriteLine(result);
+        }
+        
+    }
+}
