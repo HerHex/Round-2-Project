@@ -1,0 +1,24 @@
+using System;
+
+namespace Task1
+{
+    class Program
+    {
+        public static int Blabla()
+        {
+            Console.WriteLine("Task about calculating circut power ");
+            Console.WriteLine("Input voltage");
+            int voltage = int.Parse(Console.ReadLine());
+            Console.WriteLine("Input current");
+            int current = int.Parse(Console.ReadLine());
+            int power = voltage * current;
+            Console.WriteLine($"The circut power is {power}");
+            return power;
+        }
+        static void Main(string[] args)
+        {
+            Console.WriteLine(Blabla());
+        }
+        
+    }
+}
