@@ -1,0 +1,24 @@
+using System;
+
+namespace Task1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string n1 = Console.ReadLine();
+            string n2 = Console.ReadLine();
+            if (int.Parse(n1) < int.Parse(n2))
+            {
+                Console.WriteLine(n1);
+            }
+            else
+            {
+                Console.WriteLine(n2);
+            }
+                
+           
+        }
+        
+    }
+}
