@@ -1,0 +1,24 @@
+using System;
+
+namespace Task1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Input age and then current time");
+            int age = int.Parse(Console.ReadLine());
+            int on_break = int.Parse(Console.ReadLine());
+            if (age >= 18 && on_break > 18)
+            {
+                Console.WriteLine(true);
+            }
+            else
+            {
+                Console.WriteLine(false);
+                Console.WriteLine("The bartender works from 18 to 24");
+            }
+        }
+        
+    }
+}
