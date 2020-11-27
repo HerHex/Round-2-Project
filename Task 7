@@ -1,0 +1,25 @@
+using System;
+
+namespace Task1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Input total number of slices first, people second and how many slices per person third. ");
+            int total = int.Parse( Console.ReadLine());
+            int people = int.Parse(Console.ReadLine());
+            int each = int.Parse(Console.ReadLine());
+            if (people * each <= total)
+            {
+                Console.WriteLine(true);
+            }
+            else
+            {
+                Console.WriteLine(false);
+            }
+
+        }
+        
+    }
+}
