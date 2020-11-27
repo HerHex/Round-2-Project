@@ -1,0 +1,23 @@
+using System;
+
+namespace Task1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Making a bridge using '#' signs");
+            string bridge = Console.ReadLine();
+            if (bridge.Contains(" "))
+            {
+                Console.WriteLine(false);
+                Console.WriteLine("The bridge is safe !");
+            }
+            else
+            {
+                Console.WriteLine(true);
+            }
+        }
+        
+    }
+}
